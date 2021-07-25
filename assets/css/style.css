@@ -1,0 +1,35 @@
+:root{
+    --dark: #2b2d42;
+    --light: #adb5bd;
+    --border: #dee2e6;
+    --border-btn: #edf2f4;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1024px;
+    margin: auto;
+}
+
+.nav-brand{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
