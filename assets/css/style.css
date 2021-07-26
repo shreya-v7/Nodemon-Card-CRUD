@@ -1,6 +1,4 @@
 :root{
-    --dark: #2b2d42;
-    --light: #adb5bd;
     --border: #dee2e6;
     --border-btn: #edf2f4;
 }
@@ -32,4 +30,45 @@ a{
 
 .justify-between{
     justify-content: space-between;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.border-shadow{
+    border: 1px solid var(--border-btn);
+    box-shadow: 1px 3px 10px #e9ecef;
+}
+
+nav{
+    background-color: rgba(16, 165, 11, 0.774);
+    padding: 1em 0;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: rgb(241, 223, 223);
+}
+
+#site-main{
+    margin-top: 50px;
+}
+
+#site-main container .box-nav > a{
+    font-size: 1em;
+    padding: 5em 1em;
+    text-decoration: none;
+}
+
+form{
+    padding: 20px;
 }
