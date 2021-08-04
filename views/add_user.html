@@ -22,12 +22,20 @@
         <div id="site-main">
             <div class="container">
                 <div class="box-nav d-flex-justify-between">
-                    <a href="/add-user" class="border-shadow">
-                    <span class="text-gradient">New Team<i class="fas fa-user"></i></span></a>
+                    <a href="/" class="border-shadow"><i class="fas fa-angle-double-left"></i>All users</a>
                 </div>
-                <form action="/" method="POST">   
-                    
-                    
+                <form method="POST" id="update_user">
+                    <div class="row">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Team Name: </h5>
+                              <p class="card-text">Captain/Co-Captain: </p>
+                              <p class="card-text">Points: </p>
+                              <a href="#" class="btn btn-success">Edit</a>
+                              <a href="#" class="btn btn-danger">Delete</a>
+                            </div>
+                          </div>
+                      </div>                      
                 </form>
             </div>
         </div>
